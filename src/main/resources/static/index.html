@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard </title>
+    <link rel="stylesheet" href="css/user_dashboard.css">
+</head>
+<body>
+    <div class="container">
+    <h1 style="text-align:center;">🛒 Local Shop</h1>
+    <div id ="product-list"></div>
+    <p style="text-align:center; color:gray;">
+    Click on product to add to cart
+   </p>
+    <h2>Your Order</h2>
+   <div id="cart"></div>
+   <h2>Place Order</h2>
+
+<input type="text" id="name" placeholder="Enter Name"><br><br>
+<input type="text" id="phone" placeholder="Enter Phone"><br><br>
+<input type="text" id="address" placeholder="Enter Address"><br><br>
+
+<button onclick="submitOrder()">Place Order</button>
+</div>
+    <script src="js/product.js"></script>
+</body>
+</html>
